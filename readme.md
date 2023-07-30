@@ -28,10 +28,20 @@ This plugin is developed by [Prolific Digital](https://www.prolificdigital.com/)
 
 ## Usage
 
-After activating the plugin, you'll need to input your SendGrid API key.
+After activating the plugin, you'll need to set up SendGrid within your WordPress admin panel. This involves two main steps: generating an API key and setting up Domain Authentication.
+
+The SendGrid Integration settings page can be found in the WordPress settings menu under the following path: `wp-admin/options-general.php?page=sendgrid-integration`.
+
+### Generating an API Key
 
 1. Navigate to the SendGrid Integration settings page in your WordPress admin panel.
 2. Enter your SendGrid API Key and click "Save Settings".
+
+### Domain Authentication
+
+Domain Authentication with SendGrid involves adding a few DNS records. By doing this, you demonstrate ownership of your domain and protect your sender reputation. Follow the instructions in SendGrid's [Domain Authentication documentation](https://docs.sendgrid.com/ui/account-and-settings/how-to-set-up-domain-authentication).
+
+### Sending Test Emails
 
 You can also specify an email category if you would like to tag emails sent via SendGrid.
 
