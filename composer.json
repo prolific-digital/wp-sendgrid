@@ -1,0 +1,14 @@
+{
+  "name": "prolific/wp-sendgrid-integration",
+  "description": "A plugin that replaces the default wp_mail function to use SendGrid instead.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Prolific Digital",
+      "homepage": "https://www.prolificdigital.com/"
+    }
+  ],
+  "require": {
+    "sendgrid/sendgrid": "^8.0"
+  }
+}
